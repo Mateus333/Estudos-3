@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Box</title>
     <style>
-        div.conteiner {
+        div.container {
             background-color: lightsalmon;
 
             display: flex;
-            flex-flow: row nowrap;
+            flex-flow: row wrap;
         }
 
         div.item {
-            background-color: lightcyan;
+            background-color: lightblue;
             border: 1px solid black;
             text-align: center;
             flex-basis: 150px;
@@ -21,9 +21,9 @@
     </style>
 </head>
 <body>
-    <div class="conteiner">
+    <div class="container">
         <div class="item">A</div>
-        <div class="item">Outro Conteúdo</div>
+        <div class="item">Outro conteúdo</div>
         <div class="item">C</div>
         <div class="item">Conteúdo um pouco maior</div>
         <div class="item">E</div>
@@ -31,4 +31,4 @@
         <div class="item">G</div>
     </div>
 </body>
-</html> 
+</html>
